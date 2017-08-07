@@ -1,10 +1,10 @@
-package week2;
+package algorithm_toolbox.week2;
 
 import java.util.Scanner;
 
 public class GCD {
 
-    /** Naive week2.GCD algorithm */
+    /** Naive algorithm_toolbox.week2.GCD algorithm */
 //  private static int gcd_naive(int a, int b) {
 //    int current_gcd = 1;
 //    for(int d = 2; d <= a && d <= b; ++d) {
@@ -19,7 +19,7 @@ public class GCD {
 //  }
 
     /**
-     * Euclidean week2.GCD algorithm
+     * Euclidean algorithm_toolbox.week2.GCD algorithm
      */
     private static long euclideanGCD(long a, long b) {
         if (b == 0) {
@@ -36,7 +36,7 @@ public class GCD {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
-        //Replace Naive week2.GCD algorithm for Euclidean
+        //Replace Naive algorithm_toolbox.week2.GCD algorithm for Euclidean
 //      System.out.println(gcd_naive(a, b));
         System.out.println(euclideanGCD(a, b));
     }

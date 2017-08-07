@@ -1,3 +1,5 @@
+package algorithm_toolbox.week1;
+
 import java.util.Scanner;
 
 /**
